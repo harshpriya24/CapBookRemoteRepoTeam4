@@ -8,7 +8,5 @@ public class CapBookStoreApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CapBookStoreApplication.class, args);
-		System.out.println("hello i am ur bscrum master darr k raho");
 	}
-
 }
