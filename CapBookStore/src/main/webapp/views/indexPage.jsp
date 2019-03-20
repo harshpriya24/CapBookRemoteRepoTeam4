@@ -15,7 +15,7 @@ Capbook
 }
 .h2{
 float:centre;
-color:green;
+color:blue;
 }
 input[type=submit] {
   background-color:blue;
