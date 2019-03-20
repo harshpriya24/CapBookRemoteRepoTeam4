@@ -1,5 +1,8 @@
 package com.cg.capbook.services;
 
-public class CapbookServices {
+import com.cg.capbook.beans.User;
+
+public interface CapbookServices {
+public String registeringNewUser(User user);
 
 }

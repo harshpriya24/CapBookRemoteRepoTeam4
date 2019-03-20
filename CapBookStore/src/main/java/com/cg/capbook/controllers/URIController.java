@@ -14,6 +14,10 @@ public class URIController {
    public String getIndexPage() {
 	   return "indexPage";
    }	
+	@RequestMapping(value= {"login"})
+	   public String getLoginPage() {
+		   return "LoginPage";
+	   }	
 	@ModelAttribute
 	public User getUser() {
 		user=new User();
