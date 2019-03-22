@@ -12,6 +12,7 @@ public class CapBookServicesImpl implements CapbookServices {
 
 	@Override
 	public User registeringNewUser(User user) {
+	
 		return userdao.save(user);
 	}
 

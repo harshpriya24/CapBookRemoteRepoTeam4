@@ -28,14 +28,14 @@ input[type=submit]:hover {
 </style>
 <body>
 <h2>WELCOME TO CAPBOOK</h2>
-<form>
+<form action=" " method="post">
  <div class="col">
  <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="password" placeholder="Password" required>
         <input type="submit" value="Login">
       </div>
 	  </form>
-	  <form>
+	  <form action=" " method="post">
 	  <div class="container">
 	  <h2>Sign Up</h2>
 	  <hr>
