@@ -13,11 +13,15 @@ public class URIController {
 	@RequestMapping(value= {"/","index"})
    public String getIndexPage() {
 	   return "indexPage";
-   }	
-	@RequestMapping(value= {"login"})
+   }
+	@RequestMapping("/login")
 	   public String getLoginPage() {
 		   return "LoginPage";
-	   }	
+	   }
+	@RequestMapping("/registration")
+	   public String getRegistrationPage() {
+		   return "registrationPage";
+	   }
 	@ModelAttribute
 	public User getUser() {
 		user=new User();

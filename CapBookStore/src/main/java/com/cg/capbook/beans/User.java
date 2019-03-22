@@ -24,7 +24,6 @@ public class User {
 	private String userName;
 	@NotEmpty
 	private String password;
-	@NotEmpty
 	private LocalDate dOB;
 	@NotEmpty
 	private String gender;

@@ -19,9 +19,14 @@ public class CapBookServiceController {
 
 @RequestMapping("/loginUser")
 public ModelAndView loginUser(@Valid@ModelAttribute User user,BindingResult result) {
-	if(result.hasErrors()) return new ModelAndView("registrationPage");
+	if(result.hasErrors()) return new ModelAndView("indexPage");
      user=capbookServices.logIn(user);
-	return new ModelAndView("homePage","user",user);
+	return new ModelAndView("HomePage","user",user);
 }
-
+@RequestMapping("/registerUser")
+public ModelAndView registerUser(@Valid@ModelAttribute User user,BindingResult result) {
+	if(result.hasErrors()) return new ModelAndView("indexPage");
+     user=capbookServices.registeringNewUser(user);
+	return new ModelAndView("HomePage","user",user);
+}
 }

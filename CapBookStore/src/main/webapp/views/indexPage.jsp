@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %> 
 <!DOCTYPE html>
 <html>
 <title>
-Capbook
+<h3>Capbook</h3>
 </title>
 <style>
 .col {
@@ -27,33 +28,18 @@ input[type=submit]:hover {
 }
 </style>
 <body>
-<h2>WELCOME TO CAPBOOK</h2>
-<form action=" " method="post">
- <div class="col">
- <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="submit" value="Login">
-      </div>
-	  </form>
-	  <form action=" " method="post">
-	  <div class="container">
-	  <h2>Sign Up</h2>
-	  <hr>
-	  <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-	<label for="firstname"><b>FirstName</b></label>
-    <input type="text" placeholder="Enter FirstName" name="firstname" required>
-	<label for="lastname"><b>LastName</b></label>
-    <input type="text" placeholder="Enter LastName" name="lastname" required>
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label for="psw-repeat"><b>Confirm Password</b></label>
-    <input type="password" placeholder="Confirm Password" name="psw-confirm" required>
-    <hr>
-	<button type="submit" class="registerbtn">Register</button>
-  </div>
-
-	  </form>
+<table>
+<tr>
+<td>Click Here To</td>
+<a href="login">Sign In</a>
+</td>
+</tr>
+<br>
+<tr>
+<td>Click Here To</td>
+<a href="registration">Sign Up</a>
+</td>
+</tr>
+</table>
  </body>
 </html>
