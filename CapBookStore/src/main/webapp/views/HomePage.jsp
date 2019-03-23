@@ -58,7 +58,9 @@ body{
             <div class="toppane"><h1>CapBook</h1></div>
             <div class="leftpane"><h5>Options</h5></div>
             <div class="middlepane"><h2>News Feed
-            Registration Done </h2></div>
+            Registration Done 
+            ${user.userId} }
+            </h2></div>
             <div class="rightpane"><h5>Activities</h5></div>
 </div>
 </body>
